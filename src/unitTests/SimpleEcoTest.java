@@ -1,4 +1,4 @@
-package test;
+package unitTests;
 
 import no.ntnu.fp.model.SimpleEcu;
 import no.ntnu.fp.model.Vehicle;
