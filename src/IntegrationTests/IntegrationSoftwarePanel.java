@@ -9,6 +9,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 public class IntegrationSoftwarePanel {
 
     FactoryProjectPanel fpp;
@@ -47,6 +49,21 @@ public class IntegrationSoftwarePanel {
         fp.addSoftware(sw);
 
         Assert.assertEquals(sw, fp.getLatestSoftware());
+    }
+
+    @Test
+    public void testOpenSoftware(){
+        // The SoftwareDbStorage should store all added software, and one should be able to retrieve this from it.
+
+        ArrayList a = sds.openSoftware();
+
+        int beforeLen = a.size();
+
+        sds.addSoftware(sw, sp);
+
+        ArrayList b = sds.openSoftware();
+
+        Assert.assertEquals(beforeLen+1, b.size());
     }
 
 
