@@ -11,7 +11,6 @@ import org.junit.Test;
 public class IntegrationSoftwareDbStorage {
 
     FactoryDbStorage fds = new FactoryDbStorage();
-    SoftwareDbStorage sds = new SoftwareDbStorage();
 
     @Test
     public void testConnectToDb() throws SQLException {
