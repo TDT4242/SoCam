@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-2018-04-17 11:49:29.940 GMT:
- Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.1.3 - (648739): instance a816c00e-0162-d370-381c-000006073538
-on database directory C:\Users\hanak\dev\TDT4242\assignment3\SoCam\GarageDB  
+2018-04-22 11:47:35.791 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.4.1.3 - (648739): instance a816c00e-0162-ed2e-4691-00000680d670
+on database directory C:\Users\hanak\dev\TDT4242\assignment3\SoCam\FactoryDB  
 
 Database Class Loader started - derby.database.classpath=''
